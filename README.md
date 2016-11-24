@@ -3,7 +3,7 @@ Include Kafka as extra module in gradle multi-project
 
 * clone repository
 
-* run 
+* run / before open in any IDE
 ```bash
 >./initialize_project.sh
 ```
