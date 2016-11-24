@@ -8,9 +8,7 @@ Include Kafka as extra module in gradle multi-project
 >./initialize_project.sh
 ```
 
-root build.gradle contains variable rootKafkaSubPath, that uses in patched kafka/build.gradle file
-
-3. module company-commons has relative dependency on submodule kafka
+3. module company-commons has relative dependency on submodule kafka / root build.gradle contains variable rootKafkaSubPath, that uses in patched kafka/build.gradle file
 ```groovy
 dependencies {
     compile project(":kafka:clients")
