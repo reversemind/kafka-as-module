@@ -10,7 +10,7 @@ git submodule update
 #cd ..
 
 #3 fix  build.gradle
-cp -f ./_kafka_fixed_build_gradle kafka/build.gradle
+cp -f ./_kafka_fixed_build_gradle_ kafka/build.gradle
 
 #4 upload gradle wrapper
 gradle wrapper
