@@ -1,0 +1,19 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+group = 'kafka-as-module'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+ext {
+	rootKafkaSubPath = ":kafka"
+}
+
+dependencies {
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '3.2.1'
+}
