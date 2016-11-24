@@ -23,7 +23,7 @@ look class com.company.test.RunForrestRun
 ```
 
 
-* module kafka hash dependency on company-extra-utils
+* module :kafka:clients hash dependency on company-extra-utils
 ```groovy
     // link to the top level project out of Kafka directory
     if (project.hasProperty("rootKafkaSubPath") && project.properties.get("rootKafkaSubPath").toString().trim() != "") {
